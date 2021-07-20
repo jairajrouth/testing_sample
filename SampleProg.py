@@ -13,6 +13,7 @@ class JackPot:
 
 if __name__ == "__main__":
    JackPot.sum_jack_pot(2, 5)
+   JackPot.greater_value()
 
 #mut.py --target SampleProg.py --unit-test tests\test_SampleProg.py -m --report-html DIR_NAME
 #mut.py --target src\SampleProg.py --unit-test tests\test_SampleProg.py -m
