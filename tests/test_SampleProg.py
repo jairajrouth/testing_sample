@@ -7,10 +7,10 @@ class MyTestCase(unittest.TestCase):
     def test_sumJackPot(self):
         self.assertEqual(JackPot.sum_jack_pot(3, 1), 4)
 
-    # def test_sumJackPot2(self):
+    # def test_sumJackPot2(self): #Fails
     #     self.assertEqual(JackPot.sum_jack_pot(2, 5), 7)
-    #
-    # def test_sumJackPot3(self):
+
+    # def test_sumJackPot3(self): #Fails
     #     self.assertEqual(JackPot.sum_jack_pot(-2, -3), 2)
 
     def test_sumNoJackPot(self):
